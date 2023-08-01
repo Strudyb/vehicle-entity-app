@@ -149,7 +149,7 @@ export default {
   },
 
   methods: {
-    async getVehicles() {
+    getVehicles() {
       this.isLoading = true;
 
       supabase
